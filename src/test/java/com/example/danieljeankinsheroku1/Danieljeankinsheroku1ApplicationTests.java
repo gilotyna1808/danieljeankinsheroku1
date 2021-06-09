@@ -23,7 +23,7 @@ class Danieljeankinsheroku1ApplicationTests {
         this.mockMvc.perform(get("/"))
                 .andDo(print())
                 .andExpect(status().isOk())
-                .andExpect(content().string("Hello Jenkins"));
+                .andExpect(content().string("To nie jest wynik"));
     }
 
 }
